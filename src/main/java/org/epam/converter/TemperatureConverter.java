@@ -14,7 +14,7 @@ public class TemperatureConverter {
     }
 
     public static double celsiusToKelvin(double celsius) {
-        return celsius + 273.0;
+        return celsius + 273.15;
     }
 
     public static double kelvinToFahrenheit(double kelvin) {
@@ -22,7 +22,7 @@ public class TemperatureConverter {
     }
 
     public static double kelvinToCelsius(double kelvin) {
-        return kelvin - 273.0;
+        return kelvin - 273.15;
     }
 
     public static void main(String[] args) {
